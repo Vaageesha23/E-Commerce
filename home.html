@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+   <header>
+   <div id="user-display"></div>
+     <h1>🛍️ MyShop</h1>
+     <nav> 
+         <a href="home.html">Home</a>
+         <a href="mobiles.html">Mobiles</a>
+         <a href="laptop.html">Laptops</a>
+         <a href="watches.html"></a>Watches</a>
+         <a href="cart.html">Cart</a>
+     </nav>
+   </header>
+    <section class="middle">
+        <h2>Welcome to MyShop!</h2>
+        <p>Find the best deals on top products</p>
+        <a href="mobiles.html" class="btn">Shop Me</a>
+    </section>
+    <section class="highlights">
+    <h2>Why Choose Us?</h2>
+    <ul>
+        <li>✔High Quality Products </li>
+        <li>✔Best Price Gurantee  </li>
+        <li>✔Fast and Secure Delivery  </li>
+        <li>✔24/7 customare Support  </li>
+        <li>✔Easy refunds and  returns</li>
+    </ul>
+</section>
+
+    <footer>
+        <p>©2025 My Shop.All Rights are Reserved</p>
+        <p> Welcome to KL University</p>
+    </footer>
+<script>
+let user = localStorage.getItem("loginuser");
+if (user){
+    document.getElementById("user-display").innerText = "Welcome" + user;
+}
+</script>
+</body>
+</html>

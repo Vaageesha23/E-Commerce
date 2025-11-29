@@ -1,0 +1,37 @@
+body{
+    border:0;
+    font-family: cursive;
+    background-color: rgb(249, 249, 245);
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+}
+nav a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    font-size: larger;
+}
+.cart-container{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    background-color: darkturquoise;
+}
+.check-btn{
+ display: inline-block;
+ background-color: black;
+ color: white;
+ border-radius: 5px;
+ text-decoration: none;
+ padding: 10px;
+ font-size: 20px;
+ margin-top: 30px;
+
+}

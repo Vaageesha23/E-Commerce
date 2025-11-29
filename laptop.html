@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShop</title>
+    <link rel="stylesheet" href="laptop.css">
+</head>
+<body>
+    <header>
+    <div id="user-display"></div>    
+        <h1>🛍️ MyShop</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="mobiles.html">Mobiles</a>
+            <a href="laptop.html">Laptops</a>
+            <a href="watches.html"></a>Watches</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <main class="page">
+        <div class="products">
+            <div class="card">
+                <h3>iQOO Z10 Lite 5G </h3>
+                <img src="C:\Users\srinu\OneDrive\Desktop\HTML\E-COMMERCE\iQOO.webp"width="150" height="150">
+                <div class="rating" aria-label="4.1 out of 5">★★★★☆</div>
+                <p class="price">₹11,498</p>
+                <button onclick="addtocart('iQOO Z10 Lite 5G',11498)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>HP Laptop 15-fc0155AU</h3>
+                <img src="C:\Users\srinu\OneDrive\Desktop\HTML\E-COMMERCE\hp laptop.webp"width="150" height="150">
+                <div class="rating" aria-label="2.3 out of 5">★★☆☆☆</div>
+                <p class="price">₹36,499</p>
+                <button onclick="addtocart('HP Laptop 15-fc0155AU',36499)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>HP Victus 12th Gen Gaming Laptop</h3>
+                <img src="C:\Users\srinu\OneDrive\Desktop\HTML\E-COMMERCE\victus.webp" width="150" height="150">
+                <div class="rating" aria-label="4.3 out of 5">★★★★☆</div>
+                <p class="price">₹98,499</p>
+                <button onclick="addtocart('HP Victus 12th Gen Gaming Laptop',98499)">Add to Cart</button>
+            </div>
+            <div class="card">
+                <h3>Apple MacBook Pro M4</h3>
+                <img src="C:\Users\srinu\OneDrive\Desktop\HTML\E-COMMERCE\imac.webp" width="150" height="150">
+                <div class="rating" aria-label="4.8 out of 5">★★★★☆</div>
+                <p class="price">₹1,50,900</p>
+                <button onclick="addtocart('Apple MacBook Pro M4',150900)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+     <footer>
+        <p>©2025 My Shop.All Rights are Reserved</p>
+        <p> Welcome to KL University</p>
+     
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
